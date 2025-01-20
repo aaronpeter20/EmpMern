@@ -1,0 +1,16 @@
+body {
+  background-image: url('./masud-merzaye-EzT0IP2ZZcY-unsplash.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;  
+  background-color: #ffffff;     
+  height: 84vh;                
+  margin: 0;     
+}
+
+
+
+.textField {
+  background-color: white;
+  border-radius: 4px;
+}
