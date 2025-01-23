@@ -21,7 +21,7 @@ const Addemployee = () => {
   const updateValue = () => {
     if (location.state != null) {
       
-    axiosInstance.put(`http://localhost:3000/employee/update/${location.state.val._id}`, employeeData)
+    axiosInstance.put(`/employee/update/${location.state.val._id}`, employeeData)
         .then((res) => {
           alert(res.data);
           navigate('/admin');
@@ -42,7 +42,7 @@ const Addemployee = () => {
         return; 
       }
       
-    axiosInstance.post('http://localhost:3000/employee/add', employeeData)
+    axiosInstance.post('/employee/add', employeeData)
         .then((res) => {
           alert(res.data);
           navigate('/admin');
